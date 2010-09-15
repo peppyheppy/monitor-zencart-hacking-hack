@@ -1,0 +1,6 @@
+You can easily modify the script to use any path to any site, but for my purposes (in use with a shared hosting spanel account, I use the /home/<account name>/www as a default path. 
+
+To run the script I would recommend adding the script to the cron like so:
+*/5 * * * * ruby ./zencart_hack_check.rb cpanelaccount1,two,three root@domain.com webmaster
+
+Enjoy!
